@@ -5,15 +5,15 @@ body{
     background-color: #EDEDED;
 }
 h3 {
-    color: red;
-    border-bottom: 1px #929CA4;
+    color: blue;
+    border-bottom: 1px solid #929CA4;
   }
   
   p:first-of-type::first-letter {
     font-size: 30px;
   }
   
-  .solution {
+  .solution::first-line {
     color: #CC1C0D;
     font-weight: bold;
   }
